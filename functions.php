@@ -16,7 +16,7 @@ function tambah($data_tambah)
 {
     global $conn;
 
-    $namaProduk = htmlspecialchars($data_tambah["nama_produk"]);
+    $nama_produk = htmlspecialchars($data_tambah["nama_produk"]);
     $keterangan = htmlspecialchars($data_tambah["keterangan"]);
     $harga = htmlspecialchars($data_tambah["harga"]);
     $jumlah = htmlspecialchars($data_tambah["jumlah"]);
@@ -24,7 +24,7 @@ function tambah($data_tambah)
     // mengambil data
     $query = "INSERT INTO produk
                 VALUES
-                ('', '$namaProduk', '$keterangan', '$harga', '$jumlah')
+                ('', '$nama_produk', '$keterangan', '$harga', '$jumlah')
                 ";
     mysqli_query($conn, $query);
 
