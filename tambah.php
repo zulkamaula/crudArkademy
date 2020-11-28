@@ -35,43 +35,40 @@ if (isset($_POST["submit"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tambah Data Produk</title>
-    <style>
-        ul li {
-            list-style: none;
-            margin: 10px auto;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Tambah Data Produk</h1>
-    <form action="" method="post">
-        <ul>
-            <li>
-                <label for="nama_produk">Nama Produk :</label>
-                <input type="text" name="nama_produk" id="nama_produk" required>
-            </li>
+    <div class="container-tambah">
+        <h1>Tambah Data Produk</h1>
+        <form action="" method="post">
+            <ul>
+                <li>
+                    <label for="nama_produk">Nama Produk &nbsp;:</label>
+                    <input type="text" name="nama_produk" id="nama_produk" required>
+                </li>
 
-            <li>
-                <label for="keterangan">Keterangan :</label>
-                <input type="text" name="keterangan" id="keterangan" required>
-            </li>
+                <li>
+                    <label for="keterangan">Keterangan &emsp;:</label>
+                    <input type="text" name="keterangan" id="keterangan" required>
+                </li>
 
-            <li>
-                <label for="harga">Harga :</label>
-                <input type="text" name="harga" id="harga" required>
-            </li>
+                <li>
+                    <label for="harga">Harga &emsp; &emsp; &nbsp;:</label>
+                    <input type="text" name="harga" id="harga" required>
+                </li>
 
-            <li>
-                <label for="jumlah">Jumlah :</label>
-                <input type="text" name="jumlah" id="jumlah" required>
-            </li>
-            <li>
-                <button type="submit" name="submit">Tambah Data</button>
-            </li>
+                <li>
+                    <label for="jumlah">Jumlah &emsp; &emsp;:</label>
+                    <input type="text" name="jumlah" id="jumlah" required>
+                </li>
+                <li>
+                    <button type="submit" name="submit">Tambah Data</button>
+                </li>
 
-        </ul>
-    </form>
+            </ul>
+        </form>
+    </div>
 </body>
 
 </html>

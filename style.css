@@ -9,11 +9,20 @@ body {
     color: lightslategray;
 }
 
-button {
+.container-index button {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     color: lightslategray;
     width: 29%;
+    font-size: 20px;
+    font-family: 'Cookie';
+}
+
+.container-tambah button {
+    display: block;
+    margin: 40px auto;
+    color: lightslategray;
+    width: 33%;
     font-size: 20px;
     font-family: 'Cookie';
 }
