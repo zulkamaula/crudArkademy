@@ -18,7 +18,8 @@ body {
     font-family: 'Cookie';
 }
 
-.container-tambah button {
+.container-tambah button,
+.container-ubah button {
     display: block;
     margin: 40px auto;
     color: lightslategray;
@@ -78,23 +79,14 @@ table a {
 }
 
 .container-index,
-.container-tambah {
+.container-tambah,
+.container-ubah {
     margin: 30px auto;
     padding: 20px 10%;
     background-color: rgba(247, 247, 247, 0.89);
     border-radius: 15px;
     box-sizing: border-box;
     box-shadow: 0px 0px 5px rgba(46, 46, 46, 0.411);
-}
-
-.container-ubah {
-    position: relative;
-    margin: 2% 15%;
-    padding: 5% 20%;
-    background-color: rgba(247, 247, 247, 0.89);
-    border-radius: 15px;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 6px rgba(46, 46, 46, 0.411);
 }
 
 li.gambar {
