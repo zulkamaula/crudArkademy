@@ -43,7 +43,7 @@ if (isset($_POST["submit"])) {
 
 <body>
     <div class="container-ubah">
-        <h1>UUbah Data Produk</h1>
+        <h1>Ubah Data Produk</h1>
         <form action="" method="post">
             <input type="hidden" name="id" value="<?= $produk["id"]; ?>">
             <ul>
